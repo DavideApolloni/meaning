@@ -1,0 +1,1907 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/david/ontologies/2020/11/HD1#"
+     xml:base="http://www.semanticweb.org/david/ontologies/2020/11/HD1"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dpo="http://www.semanticweb.org/david/ontologies/2020/11/HD1#dpo:"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdfs1="http://www.semanticweb.org/david/ontologies/2020/11/HD1#rdfs:">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/extent -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/extent"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/type -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#dpo:contains -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#dpo:contains">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_20xx"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_MAR16"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_Mar_10"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Macroareas"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_oct_11"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Files"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#dpo:occupies -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#dpo:occupies">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_20xx"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_MAR16"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_Mar_10"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Macroareas"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_oct_11"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Extent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#rdfs:isDefinedBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#rdfs:isDefinedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_20xx"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_MAR16"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_Mar_10"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Macroareas"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_oct_11"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_20xx"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_MAR16"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_Mar_10"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Macroareas"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_oct_11"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#dpo:hasSize -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#dpo:hasSize">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Extent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#dpo:organizedInto -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#dpo:organizedInto">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Files"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_20xx -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_20xx">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#HD1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_MAR16 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_MAR16">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#HD1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_Mar_10 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_Mar_10">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#HD1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#DICSIT -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#DICSIT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Desktop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Data -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#OLD_D"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Dati -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Dati">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_20xx"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Desktop -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Desktop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Dev -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Dev">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#OLD_D"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Documents -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Documents">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Eval -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Eval">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#OLD_D"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Extent -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Extent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Files -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Files"/>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#HD1 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#HD1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Lib -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Lib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#OLD_D"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Macroareas -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Macroareas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#HD1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#OLD_D -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#OLD_D">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_20xx"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#PRJ -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#PRJ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_20xx"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Papers -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Papers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_MAR16"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Prj -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Prj">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#OLD_D"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Progetti -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Progetti">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_MAR16"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#HD1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_oct_11 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_oct_11">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#HD1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#HD1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#blender-deps -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#blender-deps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#APA_REPO -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#APA_REPO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Progetti"/>
+        <dc:description>&quot;Apa: alla scoperta di Bologna&quot; project</dc:description>
+        <dc:extent>7,51 GB</dc:extent>
+        <dc:format>.svn-base (6695), .bphyps (1204), .png (963), .jpg (827), .blend (141), .tga (43), .rgb (41), .obj (25), .mtl (19), .py (15), .blend1 (10), .log (10), .txt (9), .osg (6), .xcf (5), .bmp (2), .db (2), .psd (1), .tif (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#APT -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#APT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Desktop"/>
+        <dc:description>Four txt files describing the use of ATP tools to support view previews</dc:description>
+        <dc:extent>6,89 KB</dc:extent>
+        <dc:format>.txt (4)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Autorun -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Autorun">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#HD1"/>
+        <rdfs:comment>Information about installation</rdfs:comment>
+        <rdfs:isDefinedBy>.inf</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#BAU -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BAU">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Documents"/>
+        <dc:description>Pictures of a painting on the wall of a train station</dc:description>
+        <dc:extent>1,54 MB</dc:extent>
+        <dc:format>.jpg (2), .xcf (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_20xx_basic_metadata -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_20xx_basic_metadata">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_20xx"/>
+        <rdfs1:isDefinedBy rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_20xx_content"/>
+        <rdfs1:isDefinedBy rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_20xx_size"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_20xx_content -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_20xx_content">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Files"/>
+        <dpo:organizedInto>32 elements</dpo:organizedInto>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_20xx_size -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_20xx_size">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Extent"/>
+        <dpo:hasSize>20,6 GB</dpo:hasSize>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_MAR16_basic_metadata -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_MAR16_basic_metadata">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_MAR16"/>
+        <rdfs1:isDefinedBy rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_MAR16_content"/>
+        <rdfs1:isDefinedBy rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_MAR16_size"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_MAR16_content -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_MAR16_content">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Files"/>
+        <dpo:organizedInto>3 elements</dpo:organizedInto>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_MAR16_size -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_MAR16_size">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Extent"/>
+        <dpo:hasSize>1,14 GB</dpo:hasSize>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_Mar_10_basic_metadata -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_Mar_10_basic_metadata">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_Mar_10"/>
+        <rdfs1:isDefinedBy rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_Mar_10_content"/>
+        <rdfs1:isDefinedBy rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_Mar_10_size"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_Mar_10_content -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_Mar_10_content">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Files"/>
+        <dpo:organizedInto>67 elements</dpo:organizedInto>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_Mar_10_size -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_Mar_10_size">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Extent"/>
+        <dpo:hasSize>29,1 GB</dpo:hasSize>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#BUS -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BUS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Progetti"/>
+        <dc:description>3D bus</dc:description>
+        <dc:extent>17,9 MB</dc:extent>
+        <dc:format>.png (18), .jpg (17), .jpeg (13), .blend (11), .svg (4), .blend1 (3), .xcf (2), .3ds (1), .mtl (1), .obj (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Blender -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Blender">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11"/>
+        <dc:description>Shell script</dc:description>
+        <dc:extent>61 byte</dc:extent>
+        <dc:type>.sh</dc:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Blender_Game_demos -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Blender_Game_demos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_Mar_10"/>
+        <dc:description>Explanations and examples on Blender</dc:description>
+        <dc:extent>22,1 MB</dc:extent>
+        <dc:format>.zip (2), .jpg (1), .pdf (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Blender_MouseLook -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Blender_MouseLook">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Progetti"/>
+        <dc:description>Hooded character</dc:description>
+        <dc:extent>4,07 MB</dc:extent>
+        <dc:format>.png (8), .blend (5), .jpg (5), .py (2), .pyc (2), .html (1), .zip (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Blender_versions -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Blender_versions">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Desktop"/>
+        <dc:description>Blender 2.78 and 2.79</dc:description>
+        <dc:extent>233 MB</dc:extent>
+        <dc:format>.py (3580), .h (368), .pyc (340), .oso (161), .spi1d (154), .so (147), .ini (84), .png (71), .mo (64), .txt (45), .cl (35), .cubin (27), .xml (26), .exe (18), .js (16), .pov (15), .osl (12), .spi3d (12), .spimtx (12), .css (8), .blend (6), .c (6), .rst (6), .svg (6), .md (5), .08005 (4), .cu (4), .gif (4), .gz (4), .html (4), .whl (4), .4dl (2), .5m (2), .bat (2), .config (2), .csh (2), .ctypes (2), .dat (2), .desktop (2), .fish (2), .in (2), .local (2), .o (2), .ocio (2), .pem (2), .sample (2)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Blender_versions2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Blender_versions2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11"/>
+        <dc:description>Blender 2.58a and 249b</dc:description>
+        <dc:extent>54,6 MB</dc:extent>
+        <dc:format>.py (953), .pyc (142), .so (60), .mo (24), .txt (16), .png (10), .c (9), .blend (8), .svn-base (7), .h (6), .1 (4), .svg (4), .cfg (3), .070401 (2), .071000 (2), .bz2 (2), .css (2), .egg-info (2), .zip (2), .a (1), .bat (1), .blanguages (1), .config (1), .ctypes (1), .def (1), .html (1), .in (1), .ini (1), .js (1), .local (1), .o (1), .pdf (1), .tar (1), .ttf (1), .wavelets (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Bologna_CE -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Bologna_CE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#PRJ"/>
+        <dc:description>Bologna City Engine</dc:description>
+        <dc:extent>13,1 MB</dc:extent>
+        <dc:format>.cga (39), .mtl (39), .obj (38), .jpg (25), .max (6), .shp (6), .cej (5), .dxf (4), .dbf (3), .bak (2), .bmp (2), .db (1), .jgw (1), .prj (1), .project (1), .qgs (1), .sbn (1), .sbx (1), .tfw (1), .tif (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Books -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Books">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Macroareas"/>
+        <dc:description>Books, newspapers, guides</dc:description>
+        <dc:extent>2,48 GB</dc:extent>
+        <dc:format>.h (2311), .cpp (1584), .cc (229), .dsp (226), .txt (210), .xpm (202), .exe (155), .dsw (152), .c (132), .jpg (117), .bmp (113), .pdf (95), .dll (88), .dds (85), .lib (81), .wav (81), .obj (78), .nvv (76), .nvp (74), .vso (73), .pso (71), .ico (67), .plg (66), .ncb (63), .opt (61), .class (60), .rc (50), .aif (44), .tga (39), .java (34), .o (34), .x (30), .bld (26), .rc2 (25), .a (23), .ase (23), .doc (23), .grd (21), .hpp (20), .ww (20), .aps (18), .clw (17), .pdb (15), .spk (15), .so (14), .s (13), .bat (12), .raw (12), .idb (11), .bin (10), .chm (10), .def (9), .out (9), .zip (9), .gif (8), .htm (8), .map (8), .pch (8), .sh (8), .ini (7), .l (7), .mak (7), .mdp (7), .scc (7), .y (7), .asm (6), .cab (6), .csv (6), .dat (6), .mdl (6), .mlp (6), .ilk (5), .log (5), .mpg (5), .nvf (5), .nvo (5), .crc (4), .sbr (4), .3ds (3), .bak (3), .bsc (3), .ds_store (3), .html (3), .lfb (3), .lnt (3), .mp3 (3), .qvx (3), .rgba (3), .sgi (3), .vsh (3), .bon (2), .cdm (2), .cfg (2), .dle (2), .ex_ (2), .fcl (2), .geo (2), .ins (2), .lid (2), .max (2), .md3 (2), .mid (2), .mk (2), .mot (2), .mrc (2), .mru (2), .mtl (2), .off (2), .ppt (2), .tag (2), .vmp (2), .xml (2), .dlo (1), .dtd (1), .exp (1), .gz (1), .i (1), .inl (1), .linux (1), .md2 (1), .mso (1), .old (1), .pcm (1), .pjt (1), .pof (1), .pro (1), .psd (1), .psh (1), .rar (1), .sdf (1), .simple (1), .sln (1), .url (1), .vcproj (1), .vsd (1), .vue (1), .xls (1), .xsd (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Boost -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Boost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Lib"/>
+        <dc:description>Application</dc:description>
+        <dc:extent>21,9 MB</dc:extent>
+        <dc:format>.hpp (3467), .html (2745), .cpp (2428), .rst (307), .py (253), .jam (236), .xml (202), .ipp (179), .htm (151), .gif (135), .vcproj (113), .v2 (105), .png (93), .h (77), .jpeg (73), .dsp (64), .c (61), .txt (54), .cfg (51), .xsl (51), .obj (50), .expected (48), .sh (44), .css (43), .mak (33), .fig (25), .pdf (25), .pyste (19), .dot (13), .cvsignore (12), .dat (9), .jpg (8), .pl (7), .w (7), .bat (6), .qbk 6), .boostbook 5), .diff 5), .dox 5), .pattern 4), .sln 4), .sty 4), .verbatim 4), .ini 3), .m4 3), .zip (3), .csv (2), .dll (2), .dsw (2), .dtd (2), .exp (2), .foo (2), .idb (2), .inc (2), .ksh (2), .lib (2), .mcp (2), .ncb (2), .pdb (2), .re (2), .suo (2), .ui (2), .xsd (2), .yy (2), .9x_users (1), .bpf (1), .bpr (1), .cmd (1), .com (1), .csh (1), .cxx (1), .doc (1), .docs (1), .dtdxml (1), .ent (1), .err1 (1), .err2 (1), . err3 (1), .examples (1), .graffle (1), .grammar (1), .htaccess (1), .htc (1), .ico (1), .in (1), .input (1), .js (1), .l (1), .ll (1), .ok (1), .opt (1), .pattern2 (1), .plg (1), .po (1), .poorly_formed_zonespec (1), .r (1), .res (1), .rsa (1), .rsp 1sgml (1), .shtml (1), .spec (1), .toc (1), .tst1 (1), .tst2 (1), .wd (1), .x (1), .x_pro (1), .y (1), .zone_spec_csv_file (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#CLANG-3.4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#CLANG-3.4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#blender-deps"/>
+        <dc:description>Application</dc:description>
+        <dc:extent>10,1 MB</dc:extent>
+        <dc:format>.cpp (2856), .c (1997), .m (1122), .h (903), .o (653), .mm (299), .keep (278), .txt (84), .cl (62), .result (52), .py (43), .xml (40), .rst (39), .map (35), .html (30), .td (29), .def (23), .png (17), .cu (11), .cfg (10), .in (10), .css (8), .syms (8), .cc (7), .sh (7), .cs (6), .s (6), .bfd (4), .gold (4), .hpp (4), .inc (4), .pl (4), .bat (3), .gif (3), .ico (3), .incl (3), .js (3), .json (3), .patch (3), .clang-format (2), .cmake (2), .el (2), .exports (2), .ll (2), .resx (2), .scpt (2), .1 (1), .a (1), .applescript (1), .arcconfig (1), .args (1), .bmp (1), .cgi (1), .common (1), .csproj (1), .cxx (1), .data (1), .f90 (1), .fixed (1), .footer (1), .gch (1), .gitignore (1), .graffle (1), .header (1), .ignoreme (1), .intro (1), .pod (1), .prof (1), .remap (1), .rng (1), .sln (1), .so (1), .sphinx (1), .supp (1), .system_framework (1), .utf16le (1), .vsct (1), .vsixmanifest (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Carnac34 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Carnac34">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Dev"/>
+        <dc:description>not yet available</dc:description>
+        <dc:extent>34,0 MB</dc:extent>
+        <dc:format>.html (5519), .png (1615), .h (723), .cpp (306), .map (237), .md5 (237), .jpg (197), .ui (24), .css (22), .bmp (21), .tag (8), .hhc (3), .hhk (3), .hhp (3), .bat (2), .chi (2), .chm (2), .lnk (2), .bak (1), idx (1), .php (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#ClassesRenamer -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#ClassesRenamer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11"/>
+        <dc:description>Application</dc:description>
+        <dc:extent>12,0 KB</dc:extent>
+        <dc:format>.tcl (4), .txt (2) .ini (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#DANY_eevee -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#DANY_eevee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Documents"/>
+        <dc:description>R&amp;D work</dc:description>
+        <dc:extent>4,93 MB</dc:extent>
+        <dc:format>.blend (4), .png (3), .jpg (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#DVA_atp -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#DVA_atp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17"/>
+        <dc:description>Vnc file</dc:description>
+        <dc:extent>99 byte</dc:extent>
+        <dc:format>.vnc</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#DemoEngine -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#DemoEngine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Dev"/>
+        <dc:description>not yet available</dc:description>
+        <dc:extent>31,4 MB</dc:extent>
+        <dc:format>.obj (75), .cmake (42), .mtl (41), .py (35), .cpp (30), .h (28), .cvproj (22), .htm (17), .osg (17), .txt (17), .rule (16), .idb (11), .bmp (8), dll (8), .exp (8), .lib (8), .pdb (8), .sln (8), .tga (8), .ilk (7), .jpg (7), .bak (5), .exe (3), .3ds (2), .check_chace (2), .i (2), .log (2), .ncb (2), .suo (2), .fg (1), .ive (1), .zip (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Downloads -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Downloads">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Macroareas"/>
+        <dc:description>Download folders from BK_20xx and BK_NOV17</dc:description>
+        <dc:extent>4,59 GB</dc:extent>
+        <dc:format>.py (4321), .dds (770), .h (442), .pyc (310), .oso (162), .sp1d (162), .so (158), .png (155), .mo (64), .bz2 (57), .xml (55), .cl (46), .txt (40), .cubin (36), .exe (31), .pov (30), .js (22), .bmp (16), .blend (14), .spi3d (14), .css (13), .osl (12), .spimtx (12), .4 (10), .jpg (9), .pdf (9), .html (8), .json (8), .md (8), .o (8), .zip (8), .gz (7), .mht (7), .c (6), .cu (6), .rst (6), .svg (6), .cpp (5), .ini (5), .08005 (4), .dat (4), .gif (4), .whl (4), .deb (3), .rar (3), .rfx (3), .3dl (2), .3ds (2), .5m (2), .banner (2), .bat (2), .config (2), .csh (2), .ctypes (2), .desktop (2), .dll (2), .fish (2), .frag (2), .fragment (2), .in (2), .layout (2), .lib (2), .local (2), .ocio (2), .pcd (2), .pem (2), .psd (2), .sample (2), .tgz (2), .ung (2), .vcproj (2), .vert (2), .vertex (2), .cfg (1), .dev (1), .diz (1), .dsp (1), .dsw (1), .msp (1), .ncb (1), .nfo (1), .node (1), .opt (1), .plg (1), .positions (1), .ppd (1), .run (1), .sln (1), .suo (1), .ter (1), .ter0000 (1), .ter0001 (1), .ter0002 (1), .ter0003 (1), .tga (1), .win 1</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Esperimenti_Blender -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Esperimenti_Blender">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_Mar_10"/>
+        <dc:description>Blender projects and documentations</dc:description>
+        <dc:extent>501 MB</dc:extent>
+        <dc:format>.jpg (464), .blend (256), .blend1 (29), .obj (28), .tga (20), .zip (16), .mtl (13), .py (12), .skp (10), .log (6), .skb (5), .txt (4), .gif (3), .mov (2), .osg (2), .png (2), .psp (2), .bmp (1), .cej (1), .cga (1), .gz (1), .pdf (1), .project (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#FH -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#FH">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Desktop"/>
+        <dc:description>Imedia pipeline scripts and tools</dc:description>
+        <dc:extent>109 KB</dc:extent>
+        <dc:format>.py (6), .md (3), .jpg (1), .sh (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#FR -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#FR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_20xx"/>
+        <rdfs:comment>Mummy facial reconstruction</rdfs:comment>
+        <rdfs:isDefinedBy>Containing the following files: .cxx (1777), .tcl (1750), .obj (1100), .h (773), .gif (581), .o (513), .jpg (456), .c (259), .pgm (259), .tif (244), .bmp (231), .html (218), .vtk (188), .enc (138), .py (130), .htm (127), .dll (125), .doc (92), .max (86), .exe (75), .txt (68), .xbm (67), .prp (65), .itk (56), .ini (52), .bak (51), .vsd (49), .zip (36), .in (35), .avi (28), .test (28), .lib (23), .cpp (21), .ppm (21), .ptl (21), .sl 21), .jpeg 20), .cvsignore 19), .log 17), .cdr 16), .cpt 16), .n 15), .ilk 14), .status 13), .bat (11), .ps (11), .tbl (11), .com (10), .dsp (10), .exp (10), .make (10), .pdb (10), .xls (10), .rar (9), .msg (7), .ncb (7), .png (7), .reg (7), .cache (6), .java (6), .mak (6), .ply (6), .sh (6), .mdp 5), .psp 5), .terms (5), .wmf (5), .3ds (4), .back (4), .enps (4), .idb (4), .pch (4), .wrl (4), .class (3), .hip (3), .ico (3), .itcl (3), .mtl (3), .pdf (3), .ras (3), .rtf (3), .scat (3), .sdr (3), .short (3), .stl (3), .tm 3), .wn 3), .dsw 2), .gz 2), .inf 2), .lnk 2), .mdb 2), .opt 2), .ppj 2), .ppt 2), .pro 2), .wav 2), .xml (2), .xpm (2), .alt (1), .btm (1), .btx (1), .c4d (1), .cfg (1), .chm (1), .cmd (1), .cnt (1), .cur (1), .dat (1), .diz (1), .dot (1), .g (1), .gid (1), .isu (1), .jar (1), .l (1), .m4 (1), .man (1), .me (1), .orig (1), .pif (1), .plg (1), .purify (1), .rc2 (1), .rgb (1), .slc (1), .tgz (1), .xyz (1), .y (1)</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#FbxSdk -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#FbxSdk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Lib"/>
+        <dc:description>Application</dc:description>
+        <dc:extent>79,4 MB</dc:extent>
+        <dc:format>.html (876), .png (510), .h (373), .gif (128), .js (61), .htm (46), .cxx (35), .obj (19), .lib (16), vcproj (14), .jpg (13), .txt (12), .dsp (11), .cmake (10), .db (10), .css (7), .bak (6), .idb (5), .exe (4), .i (4), .pdb (4), .cpp (3), .dll (3), .tcl (3), .fbx (2), .lnk (2), .ncb (2), .pch (2), .py (2), .sbr (2), .sln (2), .suo (2), .bat (1), .c (1), .check_cache (1), .d (1), .ilk (1), .log (1), .tif (1), .xml (1), .zip (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#G3D-7.00-win32 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#G3D-7.00-win32">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Eval"/>
+        <dc:description>Application</dc:description>
+        <dc:extent>40,9 MB</dc:extent>
+        <dc:format>.html (1264), .jpg (196), .h (190), .png (163), .txt (15), .py (14), .gif (9), .lib (8), .fnt (7), .ifs (7), .cpp (6), .css (4), .md2 (4), .pcx (4), .exe (3), .pix (3), .vrt (3), .3ds (2), .ico (2), .pdb (2), .skn (2), .14 (1), .jar (1), .reg (1), .str (1), .tga (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#GE-xp-dev -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#GE-xp-dev">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Progetti"/>
+        <dc:description>Incomplete game engine</dc:description>
+        <dc:format>.h (1356), .cpp (1338), .hpp (145), .inl (104), .c (98), .png (63), .pro (51), .o (49), .frag (43), .vert (43), .txt (37), .gea (19), .py (12), .jpg (11), .zip (11), .info (9), .ui (7), .xml (7), .bin (5), .tga (5), .ge (4), .gel (4), .gif (4), .user (4), .lua (3), .pri (3), .a (2), .blend (2), .dll (2), .lib (2), .mb (2), .mx (2), .nut (2), .bat (1), .dsp (1), .geom (1), .pdf (1), .qrc (1), .sx (1)</dc:format>
+        <dc:format>24,5 MB</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Gaiani -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Gaiani">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Prj"/>
+        <dc:description>Project</dc:description>
+        <dc:extent>2,02 GB</dc:extent>
+        <dc:format>.osg (2648), .jpg (1812), .dds (979), .obj (302), .mtl (283), .ds_store (132), .dll (120), .wrl (46), .bmp (34), .cmake (34), .attr (30), .max (29), .rgb (28), .mb (25), .txt (20), .bak (17), .frag (16), .vert (16), .db (15), .exe (15), .png (15), .tga (15), .old (12), .rule (12), .vcproj (12), .zip (11), .bat (10), .dae (10), .lnk (10), .cpp (8), .htm (8), .swatch (8), .swatches (8), .log (7), .extra (6), .in (6), .vt (6), .fbx (4), .ibd (4), .ncb (4), .rfx (4), .suo (4), .tif (4), .ttf (4), .ilk (3), .ive (3), .3ds (2), .check_cache (2), .h (2), .ma (2), .pdb (2), .psd (2), .sln (2), .wire (2), .gif (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Galassia -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Galassia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#PRJ"/>
+        <dc:description>Galaxy project</dc:description>
+        <dc:extent>9,08 GB</dc:extent>
+        <dc:format>.png (50), .jpg (17), .bat (16), .blend (16), .zip (11), .avi (9), .max (9), .tar (8), .txt (7), .bmp (2), .wmw (2), .3ds (1), .bak (1), .dae (1), .imsq (1), .mtl (1), .obj (1), .sh (1), .wrl (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Gheller -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Gheller">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Prj"/>
+        <dc:description>Project</dc:description>
+        <dc:extent>5,63 GB</dc:extent>
+        <dc:format>.jpg (14958), .bmp (722), .max (260), .avi (127), .txt (94), .tga (59), .bat (51), .ms (34), .bak(28), .py (15), .vtk (12), .vvi (12), .psp (9), .zip (7), .tcl (6), .wmw (6), .mswmm (5), .bin (3), .lnk (3), .stl (3), .rar (2), .ascii (1), .csv (1), .mtl (1), .mxp (1), .obj (1), .ply (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#IBC -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#IBC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Prj"/>
+        <dc:description>Project</dc:description>
+        <dc:extent>168 MB</dc:extent>
+        <dc:format>.max (232), .tif (61), .jpg (55), .gif (8), .bmp (7), .db (6), .avi (4), .ppj (4), .psp (4), .tga (4),  .doc (2), .blend (1), .dwg (1), .mtl (1), .obj (1), .txt (1), .zip (1), .3ds (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#ICE -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#ICE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Progetti"/>
+        <dc:description>3D iceberg</dc:description>
+        <dc:extent>1,57 MB</dc:extent>
+        <dc:format>.desktop (3), .blend (1), .jpg (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#IMC -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#IMC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Desktop"/>
+        <dc:description>Imediacity 1, 2 and 3</dc:description>
+        <dc:extent>469 MB</dc:extent>
+        <dc:format>.js (2222), .html (790), .py (486), .css (362), .json (336), .jpg (277), .md (273), .less (255), .yaml (211), .pyc (153), .sample (153), .sh (105), .png (70), .yml (61), .map (51), .txt (51), .scss (45), .tmpl (45), .gif (40), .err (36), .gitignore (33), .log (25), .xml (22), .idx (20), .pack (20), .woff2 (19), .conf (18), .gitattributes (16), .eot (15), .ttf (15), .woff (15), .svg (13), .ini (12), .npmignore (12), .jshintrc (9), .jst (9), .nuspec (9), .avi (7), .ico (6), .job (6), .mp4 (6), .otf (6), .gitkeep (5), .editorconfig (4), .jscsrc (4), .lock (4), .pem (4), .signing_policy (4), .5 (3), .csslintrc (3), .env (3), .eslintignore (3), .gitmodules (3), .gzip (3), .jpeg (3), .markdown (3), .ps1 (3), .styl (3), .todo (3), .ts (3), .xsd (3), .bk (2), .cfg (2), .dockerignore (2), .in (2), .php (2), .xlsx (2), .ipynb (1), .pdf (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#LLVM-3.4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#LLVM-3.4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#blender-deps"/>
+        <dc:description>Application</dc:description>
+        <dc:extent>15,1 MB</dc:extent>
+        <dc:format>.ll (7467), .cpp (4037), .c (2038), .h (1865), .m (1122), .cmake (874), .txt (806), .make (750), .s (680), .o (659), .mm (299), .keep (278), .td (263), .marks (188), .data (172), .internal (155), .rst (137), .py (125), .includecache (115), .cfg (112), .supp (83), .test (76), .ml (71), .cl (62), .result (52), .m4 (44), .xml (42), .in (39), .map (37), .html (35), .def (31), .png (29), .cc (26), .sh (25), .elf-x86-64 (16), .yaml (13), .mli (12), .css (11), .cu (11), .pl (8), .syms (8), .a (7), .bat (6), .bc (6), .cs (6), .elf-i386 (6), .exports (6), .coff-i386 (5), .el (5), .macho-x86_64 (5), .pyc (5), .targets (5), .bfd (4), .clang-format (4), .gold (4), .hpp (4), .macho-i386 (4), .patch (4), .bin (3), .common (3), .ico (3), .incl (3), .js (3), .json (3), .ac (2), .arcconfig (2), .asm (2), .bmp (2), .coff-x86_64 (2), .cxx (2), .elf-mip64el (2), .footer (2), .gcda (2), .guess (2), .header (2), .i386 (2), .intro (2), .lib (2), .log (2), macho-arm (2), .mips (2), .out (2), .prof (2), .resx (2), .rules (2), .scpt (2), .sphinx (2), .sub (2), .vim (2), .x86_64 (52), .1 (1), .7 (1), .a-coff-i386 (1), .a-corrupt-symbol-table (1), .a-empty (1), .a-gnu-minimal (1), .a-gnu-no-symtab (1), .applescript (1), .args (1), .cgi (1), .check_caceh (1), .coff-importlib (1), .coff-unkown (1), .conf (1), .coveragerc (1), .csproj (1), .debuglink (1), .elf-aarch64 (1), .elf-arm (1), .elf-hexagon (1), .elf-mips (1), .elf-mips64r2 (1), .elf-ppc64 (1), .elf-x86-64-space (1), .f90 (1), .fixed (1), .gch (1), .graffle (1), .grm (1), .ignoreme (1), .ini (1), .llvm (1), .macho-ppc (1), .macho-ppc64 (1), .macho-thumbv7 (1), .mc (1), .natvis (1), .ocaml (1), .plist (1), .pod (1), .regex (1), .remap (1), .rng (1), .script (1), .sln (1), .so (1), .system (1), .tests (1), .thumb (1), .tmlanguage (1), .unittest (1), .utf16le (1), .vsct (1), .vsimanifest (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Lua51 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Lua51">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Lib"/>
+        <dc:description>Application</dc:description>
+        <dc:extent>988 KB</dc:extent>
+        <dc:format>.h (46), .c (33), .obj (31), .cmake (13), .vcproj (5), .exe (4), .ilk (4), .htm (3), .idb (3), .pdb (3), .dll (2), .exp (2), .hpp (2), .lib (2), .rule (2), .sln (2), .txt (2), .check_cache (1), .log (1), .ncb (1), .suo (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#MAF -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#MAF">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Eval"/>
+        <dc:description>Application</dc:description>
+        <dc:format>.cpp (10),  .h (8), .dll (2), .exe (1), .log (1), .msf (1), .vtk (1)</dc:format>
+        <dc:format>3,26 MB</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#MAX_maps -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#MAX_maps">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Data"/>
+        <dc:description>MAterials design at the eXascale</dc:description>
+        <dc:extent>211 MB</dc:extent>
+        <dc:format>.jpg (571), .fx (38), .tga (17), .dds (16), .hdr (10), .gif (7), .ies (7), .cgfx (5), .fxh (5), .bmp (3), .dir (2)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#MDC -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#MDC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Macroareas"/>
+        <dc:description>MDC files from backup MAR_10, SEPT_11, OCT, 11, MAR_16,</dc:description>
+        <dc:extent>193 GB</dc:extent>
+        <dc:format>.jpg (148738), .svn-base (34047), .png (4885), .bphys (4683), .obj (3882), .blend (1066), .rgb (402), .prj (306), .mtl (266), .jpeg (259), .avi (239), .py (189), .dbf (177), .shp (177), .shx (177), .tga (163), .blend1 (149), .tif (146), .cga (132), .err (112), .tfw (91), .hdr (72), .flt (71), .grd (71), .pyc (71), .xcf (70), .txt (66), .ceattr (60), .xml (57), .mov (56), .html (49), .rgba (48), .sh (41), .wav (41), .sbn (40), .sbx (40), .csv (38), .dxf (36), .dds (35), .ods (35), .osg (29), .cej (27), .log (24), .bmp (23), .mp4 (22), .zip (21), .mpg (18), .odt (17), .db (14), .prefs (13), .pydevproject (13), .doc (12), .svg (12), .odg (11), .index (10), .jgw (8), .qpj (8), .tmp (8), .info (7), .gif (6), .planner (6), .xls (6), .asc (5), .bat (5), .js (5), .srt (5), .vob (5), .mpeg (4), .mxf (4), .sub (4), .version (4), .bmd (3), .bup (3), .css (3), .exr (3), .ifo (3), .iso (3), .mp3 (3), .psd (3), .psp (3), .tiff (3), .bak (2), .blend2 (2), .ds_store (2), .ers (2), .gcp (2), .ini (2), .lock (2), .markers (2), .md5 (2), .dop (2), .ppt (2), .qgs (2), .resources (2), .tree (2), .wmw (2), .aac (1), .added (1), .aif (1), .bgeconf (1), .blend3 (1), .boczob (1), .c (1), .divx 1docx (1), .eps (1), .gz (1), .max (1), .rar (1), .raw (1), .rtf (1), .swp (1), .targa (1), .wsgi 1</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Macroareas_basic_metadata -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Macroareas_basic_metadata">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Macroareas"/>
+        <rdfs1:isDefinedBy rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Macroareas_content"/>
+        <rdfs1:isDefinedBy rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Macroareas_size"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Macroareas_content -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Macroareas_content">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Files"/>
+        <dpo:organizedInto>213335 elements</dpo:organizedInto>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Macroareas_size -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Macroareas_size">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Extent"/>
+        <dpo:hasSize>208 GB</dpo:hasSize>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Maxtor_M3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Maxtor_M3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#HD1"/>
+        <rdfs:comment>Maxtor hard disk icon</rdfs:comment>
+        <rdfs:isDefinedBy>.ico</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Modelli_MAX -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Modelli_MAX">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_Mar_10"/>
+        <dc:description>Zipped projects: Nume, SanLuca, chiostroll, Mariachiara_casa</dc:description>
+        <dc:extent>644 MB</dc:extent>
+        <dc:format>.zip (4)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Mummy -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Mummy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_oct_11"/>
+        <dc:description>Videos in various languages concerning mummy&apos;s facial reconstruction, thesis, textures, pictures, pdf and Word files</dc:description>
+        <dc:extent>2,24 GB</dc:extent>
+        <dc:format>.jpg (7394), .tcl (891), .gif (637), .tif (384), .html (277), .pgm (258), .c (247), .bmp (239), .vtk (161), .htm (118), .dll (116), .h (112), .itk (112), .doc (88), .png (88), .exe (72), .max (62), .avi (55), .prp (50), .vsd (49), .cxx (46), .txt (41), .ini (39), .zip (38), .bak (35), .blend (29), .obj (25), .jpeg (20), .xmb (19), .cpt (18), .cdr (16), .cpp (15), .tm (14), .ppm (13), .svg (12), .tbl (11), .xls (11), .com (10), .lib (10), .pdb (10), .psp (10), .log (9), .ps (9), .mtl (8), .py (7), .itcl (6), .reg (6), .sh (6), .hlp (5), .mak (5), .mdp (5), .pdf (5), .ppt (5), .wmf (5), .xcf (5), .back (4), .idb (4), .ilk (4), .jbf (4), .pch (4), .rc (4), .bat (3), .cnt (3), .scat (3), .sdr (3), .short (3), .3ds (2), .diz (2), .dot (2), .flv (2), .fts (2), .gid (2), .gz (2), .ico (2), .in (2), .inf (2), .lnk (2), .o (2), .odt (2), .osp (2), .ppj (2), .ptl (2), .ras (2), .rtf (2), .terms (2), .wrl (2), .alt (1), .btm (1), .btx (1), .cfg (1), .chm (1), .cmd (1), .crdownload (1), .dat (1), .dvd (1), .m4v (1), .man (1), .me (1), .not_used (1), .odp (1), .ods (1), .pif (1), .pvsm (1), .stl (1), .tgz (1), .wav (1), .x3d (1), .xpm (1), .xyz (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Mummy_new -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Mummy_new">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_oct_11"/>
+        <dc:description>Videos explaining FR project, Word documents, skull and mummy pictures</dc:description>
+        <dc:extent>25,3 MB</dc:extent>
+        <dc:format>.png (155), .svg (14), .tif (13), .avi (5) .jpg (5) .xcf (4) .osp (3), .txt (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#OSG -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#OSG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Macroareas"/>
+        <dc:description>OSG_data, OSG_12b, OSG_20, OSG_22, OSG_237, Osg4web, OsgBindings</dc:description>
+        <dc:extent>933 MB</dc:extent>
+        <dc:format>.svn-base (13386), .obj (5111), .cpp (3697), .h (1796), .cmake (1464), .dll (1042), .html (921), .vcproj (788), .txt (693), .htm (522), .idb (489), .xml (431), .rule (398), .pbd (357), .exe (342), .c (337), .ilk (336), .plist (332), .png (321), .lib (234), .js (103), .jpg (99), .mk (91), .exp (82), .osg (68), .bat (63), .gif (58), .i (54), .in (43), .properties (43), .sh (37), .vert (32), .sln (29), .bak (28), .frag (28), .c++ (27), .css (25), .old (24), .log (19), .py (19), .manifest (18), .rgb (16), .jar (15), .nib (15), .strings (14), .ico (13), .lua (13), .rft (13), .ttf (13), .extra (12), .inst (12), .pmproj (12), .xcf (12), .dsp (11), .rc (11), .url (10), .view (10), .1 (9), .cs (9), .dsptemplate (9), .rdf (9), .tmp (9), .check_cache (8), .doc (8), .dsw (8), .ini (8), .pbxproj (8), .pch (8), .tga (8), .adb (7), .conf (7), .ncb (7), .suo (7), .zip (7), .asm (6), .cxx (6), .def (6), .m (6), .mak (6), .pl (6), .reg (6), .template (6), .xpt (6), .com (5), .dat (5), .jsm (5), .lnk (5), .st (5), .3 (4), .bmp (4), .cfg (4), .chk (4), .dtd (4), .gz (4), .iss (4), .m4 (4), .msc (4), .pas (4), .rar (4), .std (4), .xsd (4), .ads (3), .bor (3), .guess (3), .hlp (3), .mac (3), .mm (3), .mms (3), .rb (3), .rc2 (3), .readme (3), .s (3), .sas (3), .sub (3), .unix (3), .vms (3), .xib (3), .ac (2), .bcc (2), .bpf (2), .bpr (2), .cc (2), .cnt (2), .dj (2), .dj2 (2), .dox (2), .ds (2), .emx (2), .gcc (2), .ive (2), .java (2), .logo (2), .manx (2), .mc6 (2), .os2 (2), .pc (2), .pdf (2), .ppc (2), .proj (2), .raw (2), .sgi (2), .so (2), .sty (2), .tc3 (2), .tex (2), .vc (2), .wat (2), .20 (1), .21 (1), .22 (1), .32sunu (1), .5 (1), .586 (1), .64sunu (1), .686 (1), .acorn (1), .aix (1), .am (1), .amiga (1), .ansi (1), .any (1), .atari (1), .bc32 (1), .beos (1), .bpg (1), .build (1), .chm (1), .clp (1), .contrib (1), .cross (1), .csproj (1), .cvs (1), .cygwin (1), .darwin (1), .dec (1), .elf (1), .examples (1), .freebsd (1), .gcmmx (1), .gid (1), .gnu (1), .gpr (1), .hp64 (1), .hpgcc (1), .hpp (1), .hpux (1), .ibmc (1), .icc (1), .inc (1), .intel (1), .knr (1), .l (1), .linux (1), .mar (1), .mingw (1), .mingw32 (1), .mips (1), .ne12bsd (1), .netbsd (1), .nommx (1), .openbsd (1), .opt (1), .os4 (1), .pk (1), .ppm (1), .prj (1), .projects (1), .pup (1), .pyw (1), .qpg (1), .riscos (1), .sco (1), .sed (1), .sggcc (1), .sic (1), .so9 (1), .solaris (1), .solaris-x86 (1), .status (1), .sunos (1), .tc (1), .unx (1), .user (1), .vcawin32 (1), .vcwin32 (1), .w32 (1), .watcom (1), .xslt (1), .y (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#OSM2_lavoro_city_engine -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#OSM2_lavoro_city_engine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Dati"/>
+        <dc:description>City Engine related work</dc:description>
+        <dc:extent>15,2 MB</dc:extent>
+        <dc:format>.cej (2), .jpg (2), .jpeg (1), .osm (1), .tif (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#OpenApplications -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#OpenApplications">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#blender-deps"/>
+        <dc:description>OpenColor, OpenImage, OpenShading, OpenSubdiv</dc:description>
+        <dc:extent>98,4 MB</dc:extent>
+        <dc:format>.h (527), .cpp (504), .txt (386), .py (308), .tif (200), .osl (197), .obj (185), .png (138), .exr (111), .cmake (93), .pack (81), .html (74), .rst (72), .java (43), .o (31), .make (28), .jpg (27), .tex (24), .glsl (20), .psd (13), .gif (12), .gz (12), .in (12), .xml (11), .vcproj (10), .bin (9), .css (9), .hlsl (9), .md (9), .pdf (9), .sample (9), .bash (8), .f3d (8), .gitignore (7), .ttf (7), .c (6), .internal (6), .out (6), .tx (6), .dsp (5), .fig (5), .jpeg (5), .pbxproj (5), .a (4), .cxx (4), .includecache (4), .marks (4), .patch (4), .sgi (4), .sty (4), .check_cache (3), .dpx (3), .js (3), .log (3), .map (3), .mk (3), .pc (3), .hpp (2), .json (2), .l (2), .m (2), .mm (2), .sln (2), .y (2), .bmp (1), .cc (1), .cl (1), .conf (1), .css_t (1), .cu (1), .doxy (1), .dsw (1), .geo (1), .hdr (1), .hh (1), .idx (1), .inl (1), .jar (1), .odg (1), .oslgroup (1), .oso (1), .pdlist (1), .ptx (1), .r (1), .rar (1), .rc (1), .rla (1), .sh (1), .tga (1), .xib (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#PPT -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#PPT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Macroareas"/>
+        <dc:description>PPT and PDF concerning digital graphics, together with thesis and classes</dc:description>
+        <dc:extent>154 MB</dc:extent>
+        <dc:format>.ppt (7), .pdf (6)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#PipelineProduzione -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#PipelineProduzione">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11"/>
+        <dc:description>Presentation of &quot;Museo della Città&quot; project</dc:description>
+        <dc:extent>5,95 MB</dc:extent>
+        <dc:type>.pdf</dc:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Pizza -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Pizza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Progetti"/>
+        <dc:description>ItalPizza &amp; PizzaDromedari</dc:description>
+        <dc:extent>490 MB</dc:extent>
+        <dc:format>.jpg (240), .blend (111), .png (60), .xcf (21), .gif (7), .txt (3), .egg-info (2), .msi (2), .mtl (2), .obj (2), .py (2), .pyd (2), .blend1 (1), .blend2 (1), .chm (1), .crdownload (1), .dll (1), .exe (1), .fbx (1), .html (1), .mp3 (1), .pdf (1), .ply (1), .stl (1), .wrl (1), .x3d 1</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Python -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Python">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Macroareas"/>
+        <dc:description>Python projects, exercises, apps, installers, libraries</dc:description>
+        <dc:extent>572 MB</dc:extent>
+        <dc:format>.py (13715), .pyc (4488), .png (2294), .pyo (1252), .svn-base (1054), .html (869), .h (726), .txt (673), .dll (508), .c (507), .rst (468), .jpg (442), .tcl (426), .sip (413), .pyd (351), .xpm (332), .dectest (316), .gif (248), .ive (228), .pyw (160), .enc (156), .dds (149), .mo (140), .xpt (124), .material (108), .wxg (108), .bat (103), .bmp (102), .ico (102), .lib (100), .mesh (99), .cpp (96), .xbm (90), .exe (88), .hhp (82), .tga (75), .bak (73), .ts (71), .cfg (64), .qm (64), .osg (62), .afm (60), .wxs (50), .a (49), .s (49), .ttf (46), .vcxproj (44), .pro (40), .css (38), .glsl (38), .js (37), .filters (36), .zip (35), .cg (33), .htm (33), .dat (32), .exp (30), .qrc (30), .icns (28), .in (28), .svg (27), .max (26), .msg (26), .pem (26), .wixproj (26), .hlsl (25), .vtk (24), .xml (23), .def (20), .ppm (20), .ui (19), .m4 (18), .po (18), .pth (18), .cs (16), .csc (16), .fs (16), .wav (16), .overlay (14), .sh (14), .au (13), .conf (13), .f (13), .program (13), .properties (13), .fsc (12), .nib (12), .egg (11), .rc (11), .xrc (11), .ini (10), .skeleton (10), .wxl (10), .db (9), .m (9), .manifest (9), .ess (8), .lnk (8), .log (8), .psd (8), .uue (8), .vbs (8), .d (7), .egg-info (7), .layout (7), .ogreode (7), .pyf (7), .0 (6), .1 (6), .3 (6), .blend (6), .i (6), .idl (6), .particle (6), .pdf (6), .props (6), .rtf (6), .xul (6), .aiff (5), .api (5), .asp (5), .definition (5), .expected (5), .fontdef (5), .inc (5), .pri (5), .pys (5), .raw (5), .tex (5), .wpr (5), .xsd (5), .ad (4), .am (4), .asm (4), .crx (4), .eps (4), .f90 (4), .frag (4), .htb (4), .iss (4), .jar (4), .nsi (4), .patch (4), .pck (4), .proj (4), .sql (4), .terms (4), .vert (4), .xbel (4), .aifc (3), .cc (3), .csh (3), .csv (3), .ctypes (3), .cxx (3), .diff (3), .font (3), .lisp (3), .mak (3), .ogg (3), .out (3), .ps (3), .stp (3), .tar (3), .yaml (3), .68k (2), .ac (2), .adb (2), .cfm (2), .cht (2), .cvsignore (2), .ddl (2), .dem (2), .dot (2), .dwg (2), .e (2), .edc (2), .env (2), .erl (2), .f95 (2), .for (2), .guess (2), .gui (2), .hgignore (2), .hgtags (2), .hhc (2), .hs (2), .java (2), .kix (2), .ksh (2), .lt (2), .lua (2), .lyx (2), .lyx14 (2), .macros (2), .mask (2), .masm (2), .ml (2), .mpg (2), .nasm (2), .nuspec (2), .oct (2), .old (2), .pas (2), .php (2), .pl (2), .plist (2), .pot (2), .prg (2), .pxd (2), .python (2), .pyx (2), .rar (2), .rb (2), .scene (2), .scheme (2), .sed (2), .sln (2), .spec (2), .st (2), .sub (2), .swf (2), .tab (2), .targets (2), .texi (2), .ub (2), .unx (2), .v (2), .vb (2), .vc (2), .vhdl (2), .vvi (2), .wdr (2), .wgt (2), .whl (2), .wmf (2), .4 (1), .8svx (1), .aif (1), .aix (1), .aps (1), .asdl (1), .avi (1), .bin (1), .chi (1), .cmakein (1), .com (1), .command (1), .compositor (1), .controls (1), .coverity (1), .crl (1), .dia (1), .dist (1), .doc (1), .documentation (1), .dtd (1), .ensurepip (1), .example (1), .exr (1), .fish (1), .fits (1), .framework (1), .glade (1), .gpl (1), .gpl2 (1), .gpl3 (1), .gz (1), .hcom (1), .hhk (1), .hiro (1), .imageset (1), .info (1), .kanji (1), .keepme (1), .libffi (1), .libgcj (1), .looknfeel (1), .man (1), .map (1), .mid (1), .mod (1), .org (1), .patch-profile (1), .pbm (1), .pbxproj (1), .pgm (1), .ps1 (1), .pyobjc (1), .qph (1), .quickgui (1), .ras (1), .sample (1), .sample1 (1), .sample2 (1), .sct (1), .sndt (1), .supp (1), .thm (1), .tiff (1), .tlb (1), .tmp (1), .tst (1), .types (1), .user (1), .v1 (1), .valgrind (1), .vcproj (1), .voc (1), .webp (1), .wmw (1), .xsl 1</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#RapidSVNsrc -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#RapidSVNsrc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11"/>
+        <dc:description>Application</dc:description>
+        <dc:extent>15,7 MB</dc:extent>
+        <dc:format>.svn-base (1728), .png (149), .html (140), .o (134), .cpp (112), .po (95), .h (91), .xpm (65), .map (38), .md5 (38), .lo (26), .plo (26), .in (22), .am (21), .sh (12), .mo (10), .py (9), .txt (7), .dll (4), .isl (4), .0 (3), .gif (3), .ico (3), .spec (3), .svgz (3), .vcproj (3), .xml (3), .1 (2), .bat (2), .css (2), .debhelper (2), .fbp (2), .la (2), .pbxproj (2), .rpmmacros (2), .sln (2), .3 (1), .a (1), .ahpp (1), .astylerc (1), .dox (1), .dtd (1), .el (1), .guess (1), .hhc (1), .hhk (1), .hhp (1), .icns (1), .iss (1), .lai (1), .log (1), .m4 (1), .ods (1), .override (1), .pot (1), .rc (1), .so (1), .status (1), .sub (1), .substvars (1), .svg (1), .zargo (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Robot -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Robot">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Progetti"/>
+        <dc:description>&quot;I portici di Bologna&quot; project</dc:description>
+        <dc:extent>192 MB</dc:extent>
+        <dc:format>.html (22732), .js (17192), .png (3780), .txt (2686), .xml (1211), .svg (868), .py (750), .css (483), .cfg (308), .gif (249), .jpg (246), .kml (206), .sh (182), .json (122), .c (79), .cgi (79), .md (59), .rss (56), .osm (45), .gitignore (17), .tiff (10), .conf (5), .tmpl (5), .sample (4), .zip (2), .bat (1), .geojson (1), .wav (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Siggraph -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Siggraph">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Macroareas"/>
+        <dc:description>Cineca Siggraph, archive of the following years: 2007, 2008, 2009, 2011, 2016, 2017</dc:description>
+        <dc:extent>1,02 GB</dc:extent>
+        <dc:format>.html (3590), .png (2723), .jpg (313), .tcl (89), .txt (52), .pdf (28), .vtk (24), .ppt (16), .zip (11), .gif (9), .prn (9), .pptx (8), .css (6), .bmp (5), .doc (4), .avi (3), .bak (3), .exe (3), .odp (3), .dem (2), .vvi (2), .blend (1), .dot (1), .hhc (1), .hhk (1), .hhp (1), .idx (1), .lnk (1), .mov (1), .mp4 (1), .rar (1), .tmp (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Slicer-4.8.0-linux-amd64 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Slicer-4.8.0-linux-amd64">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Desktop"/>
+        <dc:description>Opensource 3D visualization system</dc:description>
+        <dc:extent>210 MB</dc:extent>
+        <dc:format>.py (1999), .pyc (1508), .so (430), .json (262), .1 (177), .msg (143), .txt (108), .tcl (98), .nrrd (81), .svn-base (79), .enc (78), .png (77), .xml (62), .h (42), .dcm (31), .2 (26), .gif (19), .f90 (15), .0 (14), .mrml (13), .6 (11), .exe (10), .cxx (7), .cmake (5), .tm (5), .ui (5), .def (4), .egg-info (4), .ini (4), .md5 (4), .npy (4), .c (3), .pc (3), .a (2), .bat (2), .cfg (2), .dump (2), .eps (2), .f (2), .html (2), .npz (2), .pth (2), .tmpl (2), .whl (2), .16 (1), .4 (1), .crt (1), .ctypes (1), .doc (1), .f2py_f2cmap (1), .fits (1), .gz (1), .icns (1), .ico (1), .in (1), .log (1), .mrml_remote (1), .pem (1), .pkl (1), .pyw (1), .qrc (1), .sample (1), .settings (1), .svg (1), .vtp (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Stark -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Stark">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Documents"/>
+        <dc:description>Stark 3D project, displaying a detailed wood with trees</dc:description>
+        <dc:extent>610 MB</dc:extent>
+        <dc:format>.jpg (24), .png (23), .blend (4), .zip (4), .db (1), .txt (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Start_Here_Win -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Start_Here_Win">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#HD1"/>
+        <rdfs:comment>Application</rdfs:comment>
+        <rdfs:isDefinedBy>.exe</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#TheWall_161Pyxurz -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#TheWall_161Pyxurz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Documents"/>
+        <dc:description>Pink Floyd The Wall album image</dc:description>
+        <dc:extent>212 KB</dc:extent>
+        <dc:type>.jpg</dc:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#VTKBlender_demo -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#VTKBlender_demo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Desktop"/>
+        <dc:description>Blender project</dc:description>
+        <dc:extent>31,6 KB</dc:extent>
+        <dc:type>.blend</dc:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Visit_demos -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Visit_demos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#PRJ"/>
+        <dc:description>Galaxy videos</dc:description>
+        <dc:extent>1,22 GB</dc:extent>
+        <dc:format>.asf (1) .avi (1) .mov (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#WX -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#WX">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Lib"/>
+        <dc:description>Application</dc:description>
+        <dc:extent>182 MB</dc:extent>
+        <dc:format>.xpm (314), .c (186), .dmc (144), .dms (144), .vcp (140), .vcw (126), .bmp (119), .unx (113), .cxx (82), .pro (72), .obj (50), .po (47), .gif (36), .tex (36), .dll (28), .pch (28), .exp (27), .mms (27), .cpp (23), .h (23), .sl (23), .mo (16), .dsw (13), .html (12), .xrc (12), .txt (11), .va (11), .cvsignore (11), .cmake (8), .mak (8), .r (8), .vcproj (8), .vms (8), .bpf (7), .def (7), .jpg (7), .bat (6), .ini (6), .sty (6), .b32 (5), .bc32 (5), .hhc (5), .hhp (5), .wav (5), .in (5), .bkl (4), .class (4), .g95 (4), .hhk (4), .idb (4), .pdb (4), .sln (4), .zip (4), .cmd (3), .cur (3), .dsp (3), .htm (3), .lib (3), .manifest (3), .mic (3), .ncb (3), .png (3), .pnm (3), .rc (3), .suo (3), .wxr (3), .dsw (3), .bcc (2), .bkgen (2), .cfg (2), .ci (2), .cnt (2), .empy (2), .fc (2), .gcc (2), .gz (2), .hlp (2), .hpj (2), .ico (2), .ilk (2), .lif (2), .m4 (2), .opt (2), .ppc (2), .test (2), .vc (2), .wat (2), .wxe (2), .2sunu (1), .5 (1), .64sunu (1), .acorn (1), .aix (1), .amiga (1ani (1), .atari (1), .bak (1), .beos (1), .bib (1), .bkmanifest (1), .bor (1), .check_cache (1), .chm (1), .com (1), .css (1), .cygwin (1), .darwin (1), .dat (1), .dec (1), .dj2 (1), .exe (1), .freebsd (1), .gcmmx (1), .guess (1), .hp64 (1), .hpgcc (1), .hpp (1), .hpux (1), .htp (1), .ibmc (1), .intel (1), .iss (1), .knr (1), .l (1), .linux (1), .log (1), .lst (1), .macosx (1), .map (1), .mgl (1), .mips (1), .mk (1), .mpg (1), .msc (1), .ne12bsd (1), .netbsd (1), .nt (1), .openbsd (1), .os2 (1), .patches (1), .pcx (1), .pl (1), .plist (1), .py (1), .res (1), .rule (1), .sco (1), .sggc (1), .sgi (1), .smgl (1), .sh (1), .shg (1), .so9 (1), .solarsi (1), .spec (1), .std (1), .sub (1), .sunos (1), .tc3 (1), .tga (1), .tif (1), .vcawin32 (1), .vcwin32 (1), .watcom (1), .wdr (1), .wmf (1), .xbm (1), .xml (1), .doxygen (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#Warranty -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Warranty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#HD1"/>
+        <rdfs:comment>Document explaining the hard disk warranty</rdfs:comment>
+        <rdfs:isDefinedBy>.pdf</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#agipGrid_Galileo -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#agipGrid_Galileo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Desktop"/>
+        <dc:description>Agip Grid C++ Library</dc:description>
+        <dc:extent>2,00 MB</dc:extent>
+        <dc:format>.html (94), .png (22), .md5 (12), .map (11), .cpp (10), .h (9), .dat (7), .c (3), .lnk (3), .o (3), .css (2), .run (2), .pro (1), .sh (1), .user (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#alembic-1.7.1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#alembic-1.7.1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#blender-deps"/>
+        <dc:description>Application</dc:description>
+        <dc:extent>784 KB</dc:extent>
+        <dc:format>.cpp (325), .make (256), .h (254), .cmake (234), .txt (119), .py (74), .includecache (64), .internal (64), .marks (28), .bin (3), .c (3), .in (3), .list (3), .abc (2), .log (2), .out (2), .shelf (2), .check_cache (1), .cxx (1), .gitignore (1), .hcustom (1), .mb (1), .supp (1), .svg (1), .yml (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#anim_tex -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#anim_tex">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Progetti"/>
+        <dc:description>Blender project and zebra texture</dc:description>
+        <dc:extent>232 KB</dc:extent>
+        <dc:format>.blend (1) .jpg (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#big_buck_bunny_480p_surround-fix_stitch -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#big_buck_bunny_480p_surround-fix_stitch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Documents"/>
+        <dc:description>Big buck bunny screen capture</dc:description>
+        <dc:extent>236 KB</dc:extent>
+        <dc:type>.jpg</dc:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#bin -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#DICSIT"/>
+        <dc:description>Executable codes for applications or libraries</dc:description>
+        <dc:extent>15,9 MB</dc:extent>
+        <dc:format>.inp (1), .out (1)</dc:format>
+        <dc:type>directory</dc:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17_basic_metadata -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17_basic_metadata">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17"/>
+        <rdfs1:isDefinedBy rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17_content"/>
+        <rdfs1:isDefinedBy rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17_size"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17_content -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17_content">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Files"/>
+        <dpo:organizedInto>6818 elements</dpo:organizedInto>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17_size -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17_size">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Extent"/>
+        <dpo:hasSize>7,74 GB</dpo:hasSize>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_oct_11_basic_metadata -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_oct_11_basic_metadata">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_oct_11"/>
+        <rdfs1:isDefinedBy rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_oct_11_content"/>
+        <rdfs1:isDefinedBy rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_oct_11_size"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_oct_11_content -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_oct_11_content">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Files"/>
+        <dpo:organizedInto>2 elements</dpo:organizedInto>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_oct_11_size -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_oct_11_size">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Extent"/>
+        <dpo:hasSize>2,45GB</dpo:hasSize>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11_basic_metadata -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11_basic_metadata">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11"/>
+        <rdfs1:isDefinedBy rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11_content"/>
+        <rdfs1:isDefinedBy rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11_size"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11_content -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11_content">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Files"/>
+        <dpo:organizedInto>12 elements</dpo:organizedInto>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11_size -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11_size">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Extent"/>
+        <dpo:hasSize>2,69 GB</dpo:hasSize>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#blender -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#blender">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Eval"/>
+        <dc:description>Blender files with scripts</dc:description>
+        <dc:extent>9,26 MB</dc:extent>
+        <dc:format>.dll (18), .h (6),  .txt (4),  .exe (3), .blend (1), .def (1), .html (1), .lnk (1), .pdf (1), .pyd (1), .zip (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#blender-git -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#blender-git">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17"/>
+        <dc:description>Blender git installer</dc:description>
+        <dc:extent>489 MB</dc:extent>
+        <dc:format>.py (1999), .pyc (1508), .so (430), .json (262), .1 (177), .msg (143), .txt (108), .tcl (98), .nrrd (81), .svn-base (79), .enc (78), .png (77), .xml (62), .h (42), .dcm (31), .2 (26), .gif (19), .f90 (15), .0 (14), .mrml (13), .6 (11), .exe (10), .cxx (7), .cmake (5), .tm (5), .ui (5), .def (4), .egg-info (4), .ini (4), .md5 (4), .npy (4), .c (3), .pc (3), .a (2), .bat (2), .cfg (2), .dump (2), .eps (2), .f (2), .html (2), .npz (2), .pth (2), .tmpl (2), .whl (2), .16 (1), .4 (1), .crt (1), .ctypes (1), .doc (1), .f2py_f2cmap (1), .fits (1), .gz (1), .icns (1), .ico (1), .in (1), .log (1), .mrml_remote (1), .pem (1), .pkl (1), .pyw (1), .qrc (1), .sample (1), .settings (1), .svg (1), .vtp (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#blender-inst -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#blender-inst">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17"/>
+        <dc:description>Blender libraries installers: alembic-1.7.1, llvm-3.4, numpy-1.13.1, ocio-1.0.9, oiio-1.7.15, osd-3.1.1, osl-1.7.5, python-3.6.2</dc:description>
+        <dc:extent>149 MB</dc:extent>
+        <dc:format>.pyc (5036), .py (2159), .h (1318), .dectest (143), .txt (116), .so (83), .a (74), .inc (39), .def (32), .pem (25), .exe (19), .td (17), .cmake (15), .f90 (15), .gif (11), .au (8), .6 (7), .ttf (7), .0 (6), .osl (6), .oso (6), .aiff (5), .c (5), .expected (5), .wav (5), .zip (5), .1 (4), .d (4), .npy (4), .pck (4), .png (4), .xml (4), .aifc (3), .html (3), .rst (3), .stp (3), .15 (2), .1-magiccheck-2-false (2), .4 (2), .bat (2), .cfg (2), .f (2), .hpp (2), .ini (2), .json (2), .md (2), .npz (2), .pc (2), .pdf (2), .pickle (2), .tmpl (2), .whl (2), .15-magiccheck-17-false (1), .1-magiccheck-0-false (1), .2 (1), .4-magiccheck-3-false (1), .5-magiccheck-21-false (1), .6m (1), .6m-config (1), .8svx (1), .9-magiccheck-2-false (1), .aif (1), .applescript (1), .bmp (1), .config (1), .cpp (1), .crl (1), .csh (1), .css (1), .ctypes (1), .el (1), .exr (1), .f2py_f2cmap (1), .fish (1), .fits (1), .gen (1), .hcom (1), .icns (1), .ico (1), .in (1), .jpg (1), .local (1), .map (1), .o (1), .out (1), .pbm (1), .pgm (1), .pki (1), .ppm (1), .pyw (1), .ras (1), .sample (1), .sgi (1), .sh (1), .sndt (1), .tar (1), .tiff (1), .types (1), .vbs (1), .voc (1), .webp (1), .xmb 1</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#blender_rock2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#blender_rock2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Progetti"/>
+        <dc:description>3D rock</dc:description>
+        <dc:extent>101 MB</dc:extent>
+        <dc:format>.tga (14), .blend (1), .ds_store (1), .png (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#bologna_monumentale -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bologna_monumentale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Documents"/>
+        <dc:description>Bologna B/W documentary</dc:description>
+        <dc:extent>573 MB</dc:extent>
+        <dc:type>.mov</dc:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#coding -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#coding">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#DICSIT"/>
+        <dc:description>Coding tests, models and libraries</dc:description>
+        <dc:extent>475 MB</dc:extent>
+        <dc:format>.svn-base (2298), .cpp (700), .h (649), .o (434), .ui (218), .c (131), .f (121), .svg (98), .png (77), .hh (56), .cc (52), .pro (38), .txt (28), .sh (25), .user (24), .cxx (15), .vti (15), .vtu (15), .qrc (14), .zip (12), .dat (11), .py (10), .db (7), .jpg (7), .h5 (6), .inp (6), .log (6), .0 (4), .blend (4), .dep (4), .inc (4), .pl (4), .7a407b0 (3), .gz (3), .par (3), .ps (3), .pvsm (3), .xcf (3), .2-pre1 (2), .a (2), .cbp (2), .e98d4a6 (2), .f90 (2), .f95 (2), .in (2), .mpi (2), .out (2), .template (2), .000 (1), .001 (1), .1 (1), .10 (1), .2 (1), .234 (1), .36 (1), .7z (1), .appendix (1), .e494431 (1), .e494433 (1), .e510021 (1), .e510193 (1), .f15363 (1), .graph (1), .ini (1), .k15363 (1), .layout (1), .mesh (1), .mgraph (1), .orig (1), .out_1x2x2 (1), .out_o2_multi_o1 (1), .ready (1)</dc:format>
+        <dc:type>directory</dc:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#credits -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#credits">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11"/>
+        <dc:description>Credits regarding the presentation of &quot;Palazzo Pepoli - Museo della Città&quot;</dc:description>
+        <dc:extent>3,65 KB</dc:extent>
+        <dc:type>.txt</dc:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#cython -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#cython">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Progetti"/>
+        <dc:description>Application</dc:description>
+        <dc:extent>116 KB</dc:extent>
+        <dc:format>.o (3), .pyx (3), .c (2), .cpp (2), .py (2), .so (2), .h (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#data -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#data">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#DICSIT"/>
+        <dc:description>Tests on projects and demos</dc:description>
+        <dc:extent>1,29 GB</dc:extent>
+        <dc:format>.dat (397), .out (89), .txt (24), .zmap (22), .inp (19), .log (15), .vti (8), .vtu (7), .h5 (6), .bin (3), .xyz (3), .sav (2), .bk (1), .db (1), .jpg (1), .par (1), .png (1), .py (1), .xmf (1), .xml (1), .zip (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#dicsit_task_lug17 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#dicsit_task_lug17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17"/>
+        <dc:description>Old todo list</dc:description>
+        <dc:extent>1,28 KB</dc:extent>
+        <dc:type>.txt</dc:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#docs -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#docs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#DICSIT"/>
+        <dc:description>Screenshots of PetraSim interface, research papers explaining projects (not Cineca&apos;s projects). Also, manuals explaining PetraSim and Though2/ThoughReact</dc:description>
+        <dc:extent>466 MB</dc:extent>
+        <dc:format>.jpg (30), .png (30), .pdf (14), .txt (4), .grep (1), .pdt (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#examples -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#examples">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17"/>
+        <dc:description>Desktop file</dc:description>
+        <dc:extent>8,76 KB</dc:extent>
+        <dc:type>.desktop</dc:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#find -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#find">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Progetti"/>
+        <dc:description>Python script</dc:description>
+        <dc:extent>695 byte</dc:extent>
+        <dc:type>.py</dc:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#fire -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#fire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11"/>
+        <dc:description>3D fire and smoke in Blender</dc:description>
+        <dc:extent>2,25 GB</dc:extent>
+        <dc:format>.bphys (2765), .jpg (515), .blend (21), .blend1 (8), .avi (7), .blend2 (4) .gif (3), .mkv (1), .txt (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#gg_test_python_frame_handler -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#gg_test_python_frame_handler">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Progetti"/>
+        <dc:description>Frame circle</dc:description>
+        <dc:extent>991 KB</dc:extent>
+        <dc:type>.blend</dc:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#glut_stub -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#glut_stub">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Dev"/>
+        <dc:description>not yet available</dc:description>
+        <dc:extent>311 KB</dc:extent>
+        <dc:format>.cmake (9), .obj (8), .cpp (4), .h (4), .exe (3), .htm (3), .idb (3), .ilk (2), .pdb (2), .suo (2), .tga (2), .txt (2), .vcproj (2), .check_cache (1), .lnk (1), .log (1), .ncb (1), .rule (1), .sln (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#google_vision -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#google_vision">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Documents"/>
+        <dc:description>Google Cloud Platform screenshot</dc:description>
+        <dc:extent>195 KB</dc:extent>
+        <dc:type>.jpg</dc:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#images -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#images">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Documents"/>
+        <dc:description>Galaxy images</dc:description>
+        <dc:extent>13,5 MB</dc:extent>
+        <dc:format>.jpg (14), .jpeg (1), .png (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#map1_tex -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#map1_tex">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17"/>
+        <dc:description>List</dc:description>
+        <dc:extent>572 byte</dc:extent>
+        <dc:type>.txt</dc:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#muvir_t_room -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#muvir_t_room">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Progetti"/>
+        <dc:description>3D room</dc:description>
+        <dc:extent>4,65 MB</dc:extent>
+        <dc:format>.blend (3), .py (3),  .xml (2), .png (2), .jpg (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#myTools -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#myTools">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Dev"/>
+        <dc:description>Classes renamer tool</dc:description>
+        <dc:extent>9,79 KB</dc:extent>
+        <dc:format>.tcl (6), .ini (5), .lnk (1), .txt (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#numpy-1.13.1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#numpy-1.13.1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#blender-deps"/>
+        <dc:description>Application</dc:description>
+        <dc:extent>4,25 MB</dc:extent>
+        <dc:format>.py (547), .png (274), .rst (174), .h (103), .c (98), .d (87), .o (86), .pyc (83), .less (48), .txt (31), .src (27), .f (19), .dat (15), .so (12), .tex (11), .cxx (10), .pyf (10), .i (9), .html (8), .css (6), .in (4), .npy (4), .svg (4), .gif (3), .gitignore (3), .inc (3), .jpg (3), .sh (3), .a (2), .conf (2), .git (2), .npz (2), .pdf (2), .pxi (2), .1 (1), .css_t (1), .dia (1), .example (1), .fig (1), .fits (1), .js (1), .pkl (1), .pxd (1), .pyx (1), .swg (1), .yml 1</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#orihalcon -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#orihalcon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Lib"/>
+        <dc:description>Application</dc:description>
+        <dc:extent>9,82 MB</dc:extent>
+        <dc:format>.dll (79), .cpp (35), .xpm (28), .h (24), .sln (8), .cvproj (7), .gif (6), .bat (5), .exe (4), .png (3), .template (3), .pjd (2), .xrc (2), .cfg (1), .chm (1), .conf (1), .css (1), .html (1), .ico (1), .ini (1), .jpg (1), .rc (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#papers_Anto -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#papers_Anto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Papers"/>
+        <dc:description>bigdata2015, Proposal-SEP-210280398, visual metaphors</dc:description>
+        <dc:extent>6,41 MB</dc:extent>
+        <dc:format>.pdf (3)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#pic_view_conf -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#pic_view_conf">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11"/>
+        <dc:description>APA pictures and presentation poster</dc:description>
+        <dc:extent>11,4 MB</dc:extent>
+        <dc:format>.jpg (17), .png (2) .tiff (1) .xcf (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#pics -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#pics">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#DICSIT"/>
+        <dc:description>Screenshots of Paraview interface and UI react</dc:description>
+        <dc:extent>31,5 MB</dc:extent>
+        <dc:format>.png (36), .jpg (35)</dc:format>
+        <dc:type>directory</dc:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#pictures_variante -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#pictures_variante">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11"/>
+        <dc:description>Video</dc:description>
+        <dc:extent>5,86 MB</dc:extent>
+        <dc:type>.avi</dc:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#pictures_variante_2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#pictures_variante_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11"/>
+        <dc:description>Video</dc:description>
+        <dc:extent>5,21 MB</dc:extent>
+        <dc:type>.avi</dc:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#progetto_Iran -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#progetto_Iran">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Progetti"/>
+        <dc:description>Incomplete project</dc:description>
+        <dc:extent>168 MB</dc:extent>
+        <dc:format>.ply (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#projects -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#projects">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#DICSIT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#py_wow_osg -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#py_wow_osg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#BK_20xx"/>
+        <rdfs:comment>Python, wow and OSG files</rdfs:comment>
+        <rdfs:isDefinedBy>Containing the following files: .html (204), .py (168), .png (119), .h (115), .pyc (114), .tga (94), .m2 (73), .jpg (63), .cpp (37), .blp (32), .xml (22), .bak (17), .txt (15), .mesh (14), .bmp (12), .exe (12), .c (11), .pyo (11), .material (7), .doc (6), .rfx (6), .ttf (6), .3ds (5), .m22 (4), .rar (4), .cfg (3), .dll (3), .pdf (3), .rtf (3), .tcl (3), .zip (3), .bat (2), .dds (2), .lib (2), .lnk (2), .ncb (2), .scene (2), .sln (2), .vcproj (2), .3 (1), .avi (1), .blend (1), .log (1), .max (1), .obj (1), .ogv (1), .osg (1), .skeleton (1), .speed 1), .wat (1)</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#referendum -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#referendum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Documents"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#repo -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#repo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Progetti"/>
+        <dc:description>&quot;Bologna_attuale&quot;, &quot;Bologna_medievale&quot;, &quot;Bologna_etrusca&quot; projects</dc:description>
+        <dc:extent>7,37 GB</dc:extent>
+        <dc:format>.svn-base (6292), .bphys (1204), .png (963), .jpg (827), .blend (141), .tga (43), .rgb (41), .obj (25), .mtl (19), .py (15), .blend1 (10), .log (10), .txt (9), .osg (6), .xcf (5), .bmp (2), .db (2), .psd (1), .tif (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#simone -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#simone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#DICSIT"/>
+        <dc:description>VoroMeshGen</dc:description>
+        <dc:extent>462 KB</dc:extent>
+        <dc:format>.hh (28), .cc (26), .cpp (20), .h (18), .sample (9), .dat (6), .dep (2), .par (2), .pl (2), .pro (2), .grignore (1), .idx (1), .md (1), .pack (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#tcl_apps -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#tcl_apps">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Dev"/>
+        <dc:description>Landmark editor</dc:description>
+        <dc:extent>599 KB</dc:extent>
+        <dc:format>.vtk (3), .tcl (1), .zip (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#triangle -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#triangle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Eval"/>
+        <dc:description>A Two-Dimensional Quality Mesh Generator and Delaunay Triangulator</dc:description>
+        <dc:extent>154 KB</dc:extent>
+        <dc:format>.c (3), .h (1) .poly (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#use_vtk71 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#use_vtk71">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_NOV17"/>
+        <dc:description>Shell script</dc:description>
+        <dc:extent>79 byte</dc:extent>
+        <dc:type>.sh</dc:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#virtualdub -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#virtualdub">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Eval"/>
+        <dc:description>Application</dc:description>
+        <dc:format>.dll (3), .exe (3),  .txt (2), .reg (2), .chm (1), .vdi (1)</dc:format>
+        <dc:format>1,27 MB</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#visit_REGGIA -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#visit_REGGIA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Progetti"/>
+        <dc:description>3D villa and related files</dc:description>
+        <dc:extent>16,0 GB</dc:extent>
+        <dc:format>.png (5218), .bphys (3084), .dds (2940), .jpg (2188), .h (1608), .svn-base (1594), .blend (973), .cpp (948), .py (877), .js (769), .html (547), .json (511), .bin (498), .svg (393), .ogg (374), .mp4 (366), .txt (335), .po (218), .glslf (212), .pyc (191), .ttf (146), .woff (134), .exe (130), .doctree (128), .css (125), .gif (114), .glslv (108), .lua (96), .dll (90), .stl (84), .c (66), .rst 66), .xml 63), .cl 54), .tmpl 54), .b4w_project 52), .jar 42), .eot 32), .so 30), .sh 26), .glsl (24), .otf (24), .mem (22), .map (20), .pyd (20), .blend1 (18), .cc (18), .properties (18), .obj (16), .b4_no_conv (14), .pdf (14), .zip (14), .bat (12), .inl (12), .md (12), .au (10), .mp3 (10), .pem 10), .pf 10), .ico 8), .m4v 8), .mdd 8), .mtl 8), .webm 8), .wav 7), .cmake 6), .inv 6), .seq (6), .lst (5), .a (4), .autosave (4), .bullet (4), .cfg (4), .dae (4), .docx (4), .gitignore (4), .idl (4), .lib (4), .license (4), .pegjs (4), .pickle (4), .template (4), .urdf (4), .yml (4), .access (2), .am (2), .bfc (2), .bsp (2), .command (2), .conf (2), .crt (2), .csv (2), .data (2), .db (2), .def (2), .icc (2), .in (2), .ja (2), .jpeg (2), .key (2), .mm (2), .plist (2), .policy (2), .rc (2), .rdf (2), .security (2), .src (2), .sym (2), .xls (2), .aiff (1), .aup (1), .ctb (1), .dwg (1), .eps (1), .tif (1), .tsv (1), .xxxo8q (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#visit_dev_py -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#visit_dev_py">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Progetti"/>
+        <dc:description>Application</dc:description>
+        <dc:extent>50,5 MB</dc:extent>
+        <dc:format>.py (135), .gif (57), .svg (25), .png (17), .txt (10), .pyc (9), .cpp (4), .h (3), .xml (3), .bak (1), .pro (1), .qrc (1), .rar (1), .ui (1), .xbm (1), .zip (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#vnc-4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#vnc-4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#bk_sep_11"/>
+        <dc:description>Application</dc:description>
+        <dc:extent>1,34 MB</dc:extent>
+        <dc:format>.man (6), .gif (1), .jar (1), .so (1), .txt (1), .vcn (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#vnc_files -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#vnc_files">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Desktop"/>
+        <dc:description>Vnc files</dc:description>
+        <dc:extent>396 byte</dc:extent>
+        <dc:format>.vnc (2)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#vtk_files -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#vtk_files">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Macroareas"/>
+        <dc:description>Vtk courses, help folder, vtk GUI and GUI101, version 5.2 and qtcreator</dc:description>
+        <dc:extent>1,12 GB</dc:extent>
+        <dc:format>.h (21100), .cxx (17507), .html (15936), .o (11764), .md5 (11108), .png (8807), .py (5686), .cmake (5065), .c (3985), .txt (3472), .tcl (2477), .make (2447), .map (1720), .cur (930), .1 (907), .rule (844), .zip (812), .in (732), .ml (661), .cpp (627), .internal (612), .includecache (608), .json (514), .marks (491), .qml (436), .pyc (358), .hpp (324), .glsl (323), .so (316), .qm (244), .bin (230), .args (186), .data (186), .java (184), .jpg (174), .txx (152), .gif (131), .dsp (101), .hxx (96), .xml (89), .qbs (88), .sh (81), .md (79), .enc (78), .exp (73), .lib (71), .dll (70), .0 (68), .pxi (68), .ilk (67), .mm (67), .ico (58), .rc (58), .pyx (57), .pdb (55), .vtk (49), .qmltypes (46), .idb (44), .bmp (43), .pl (43), .cxx_parameters (40), .doc (40), .asm (39), .js (36), .pfb (36), .bak (30), .cu (30), .sip (27), .qmlc (25), .storyboard (25), .ui (23), .qrc (22), .m (21), .obj (21), .plist (21), .nodartcoverage (20), .case (19), .css (19), .am (18), .cpp_parameters (18), .csv (18), .pbxproj (17), .pro (17), .geo (16), .log (15), .rc2 (15), .msg (14), .pch (14), .dsw (13), .exe (13), .rst (13), .def (12), .glade (12), .manifest (12), .pem (12), .xib (12), .eps (11), .pdf (11), .pri (11), .pxd (11), .tpl (11), .check_cache (10), .chm (10), .cvsignore (10), .dtd (10), .i (10), .l (10), .y (10), .ipe (9), .lnt (9), .m4 (9), .sample (9), .cdl (8), .htm (7), .bash (6), .cc (6), .ent (6), .h-vms (6), .icns (6), .out (6), .plg (6), .settings (6), .sl (6), .template (6), .xhtml (6), .creatortheme (5), .g (5), .rtf (5), .tif (5), .3 (4), .bpk (4), .bpr (4), .conf (4), .dfm (4), .dot (4), .hh (4), .hhc (4), .hhk (4), .hhp (4), .patch (4), .slc (4), .9 (3), .a (3), .ac (3), .cmakein (3), .ctest (3), .depends (3), .entitlements (3), .frag (3), .geo000 (3), .geo001 (3), .gl2ps (3), .index (3), .jar (3), .jsc (3), .lgpl (3), .ncb (3), .nroff (3), .null (3), .opt (3), .positions (3), .ppm (3), .qch (3), .qhp (3), .sha1 (3), .supp (3), .tex (3), .text (3), .tpp (3), .ttf (3), .vc (3), .vert (3), .vscript (3), .xbm (3), .xcconfig (3), .xcworkspacedata (3), .xpm (3), .zsh (3), .3ds (2), .bat (2), .dem (2), .esca_1 (2), .esca_r (2), .ecvec_i (2), .ecvec_r (2), .esca (2), .eten (2), .evec (2), .gpl3-except (2), .kms (2), .lnk (2), .message (2), .metainfo (2), .mgp (2), .ncsa_i (2), .nsca_r (2), .ncvec_i (2), .ncvec_r (2), .nim (2), .nsca (2), .nten (2), .nvec (2), .old (2), .pgm (2), .prl (2), .pth (2), .qmlproject (2), .res (2), .sos (2), .strings (2), .wiki (2), .xcspec (2), .10 (1), .11 (1), .12 (1), .13 (1), .14 (1), .15 (1), .16 (1), .17 (1), .18 (1), .19 (1), .2 (1), .20 (1), .21 (1), .22 (1), .23 (1), .24 (1), .25 (1), .26 (1), .27 (1), .28 (1), .29 (1), .31 (1), .32 (1), .33 (1), .34 (1), .35 (1), .36 (1), .37 (1), .38 (1), .39 (1), .4 (1), .40 (1), .41 (1), .42 (1), .43 (1), .44 (1), .45 (1), .46 (1), .47 (1), .48 (1), .49 (1), .5 (1), .50 (1), .51 (1), .52 (1), .53 (1), .54 (1), .55 (1), .56 (1), .57 (1), .58 (1), .59 (1), .6 (1), .60 (1), .61 (1), .62 (1), .63 (1), .64 (1), .65 (1), .66 (1), .67 (1), .68 (1), .69 (1), .7 (1), .70 (1), .71 (1), .72 (1), .73 (1), .74 (1), .75 (1), .76 (1), .77 (1), .78 (1), .79 (1), .8 (1), .81 (1), .82 (1), .83 (1), .84 (1), .85 (1), .86 (1), .87 (1), .88 (1), .89 (1), .90 (1), .92 (1), .91 (1), .alpha (1), .cpp_parameters_release (1), .dat (1), .dens_1 (1), .dens_3 (1), .desktop (1), .fac (1), .fsh (1), .gitignore (1), .idx (1), .ignore (1), .ini (1), .latex (1), .list (1), .modulemap (1), .mol (1), .mr (1), .msi (1), .nimproject (1), .nims (1), .pack (1), .ps (1), .pts (1), .qmodel (1), .raw (1), .scxml (1), .spec (1), .tmml (1), .ts (1), .version (1), .vsh (1), .vvi (1), .wrl 1</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#wow -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#wow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Macroareas"/>
+        <dc:description>wow_mpq, wow_prog and wow2max</dc:description>
+        <dc:extent>3,20 GB</dc:extent>
+        <dc:format>.h (1385), .cpp (1104), .obj (859), .xpm (347), .c (287), .html (222), .dsp (176), .in (166), .bkl (161), .wat (151), .vc (150), .bcc (142), .dmc (142), .dms (142), .htm (141), .gcc (139), .vcp (138), .dsw (137), .ico (136), .txt (131), .bmp (127), .vcw (123), .rc (117), .png (85), .sc (85), .unx (81) .pro (76), .cxx (69), .dos (62), .vcproj (57), .pdb (52), .gif (50), .cmake (45), .idb (45), .po (41), .pch (40), .tex (37), .dll (31), .twn (29), .lib (27), .mms (27), .sl (24), .sln (22), .bak (21), .exe (21), .suo (21), .csv (20), .ncb (20), .blp (19), .tga (18), .cur (15), .mo (15), .pch++ (15), .va (15), .m2 (13), .mak (13), .o (12), .xrc (12), .bat (11), .mpq (11), .zip (11), .chr (10), .ilk (10), .ini (10), .make (10), .def (9), .sh (9), .xml (9), .chm (8), .jpg (8), .r (8), .res (8), .vms (8), .wav (8), .bpf (7), .bpr (7), .log (7), .m4 (7), .sbr (7), .hhc (6), .osg (6), .sty (6), .3 (5), .check_cache (5), .dox (5), .hhk (5), .inc (5), .rule (5), .1 (4), .b32 (4), .class (4), .g95 (4), .mp3 (4), .rar (4), .unix (4), .cmd (3), .cnt (3), .com (3), .css (3), .empy (3), .lif (3), .maniefst (3), .map (3), .mk (3), .pnm (3), .std (3), .wxr (3), .a (2), .aps (2), .cfg (2), .ci (2), .exp (2), .fc (2), .guess (2), .hlp (2), .hpj (2), .hpp (2), .lua (2), .mic (2), .ms (2), .opt (2), .pchmm (2), .ppc (2), .rsp (2), .sub (2), .test (2), .wxe (2), .xbm (2), .xrd (2), .32sunu (1), .5 (1), .64sunu (1), .acorn (1), .aix (1), .amiga (1), .ani (1), .atari (1), .bc32 (1), .beos (1), .bib (1), .bkgen (1), .bkmanifest (1), .bor (1), .cdtproject (1), .cygwin (1), .darwin (1), .dat (1), .dds (1), .dec (1), .dj2 (1), .dli (1), .doxy (1), .freebsd (1), .gcmmx (1), .gz (1), .hp64 (1), .hpgcc (1), .hpux (1), .htp (1), .ibmc (1), .inf (1), .intel (1), .iss (1), .knr (1), .l (1), .lcc (1), .linux (1), .lst (1), .lwo (1), .macosx (1), .mgl (1), .mips (1), .mpg (1), .msc (1), .ne12bsd (1), .netbsd (1), .nt (1), .openbsd (1), .os2 (1), .patches (1), .pc (1), .pcx (1), .pjd (1), .pl (1), .plg (1), .project (1), .py (1), .pyc (1), .sco (1), .sggcc (1), .sgi (1), .sgml 1shg (1), .sld (1), .so9 (1), .solaris (1), .sunos (1), .tc3 (1), .tif (1), .vcawin32 (1), .vcwin32 (1), .vert (1), .watcom (1), .wdr (1), .wmf (1), .wxs (1)</dc:format>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/david/ontologies/2020/11/HD1#00003990_-_00005205 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/david/ontologies/2020/11/HD1#00003990_-_00005205">
+        <rdf:type rdf:resource="http://www.semanticweb.org/david/ontologies/2020/11/HD1#Documents"/>
+        <dc:description>Image of Bologna for Imediacity project</dc:description>
+        <dc:extent>691 KB</dc:extent>
+        <dc:type>.jpg</dc:type>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+
